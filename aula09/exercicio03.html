@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+
+	<style>
+		div {
+			background-color: #cecece;
+		}
+		form {
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+		form#cForm {
+			display: block;
+			padding-left: 20px;
+			font-size: 20pt;
+			font-weight: bolder;
+		}
+		form input#cCalc {
+			margin-top: 10px;
+			margin-left: 10px; 
+			font-size: 16pt;
+			font-weight: bold;
+			background-color: #000000;
+			color: #ffffff;
+		}
+	</style>
+
+	<title>Curso de PHP - Cursoemvideo.com</title>
+</head>
+<body>
+	<div>
+		<form method="get" name="tForm" id="cForm" action="exercicio03.php">
+		  Nota 1: <input type="number" name="tNota1" id="cNota1" min="0" max="10" placeholder="Nota 1. Semestre"/><br/>
+		  Nota 2: <input type="number" name="tNota2" id="cNota2" min="0" max="10" placeholder="Nota 2. Semestre"/><br/>
+			<input type="submit" name="tCalc" id="cCalc" value="Calcular Média"/>
+		</form>
+	</div>
+</body>
+</html>

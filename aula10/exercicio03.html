@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<title>Curso de PHP - Cursoemvideo.com</title>
+	<style>
+		div {
+			background-color: #cecece;
+		}
+		form {
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+		form#cForm {
+			display: block;
+			padding-left: 20px;
+			font-size: 20pt;
+			font-weight: bolder;
+		}
+		form input#cVer {
+			margin-top: 10px;
+			margin-left: 10px; 
+			font-size: 16pt;
+			font-weight: bold;
+			background-color: #000000;
+			color: #ffffff;
+		}
+	</style>
+</head>
+<body>
+	<div>
+
+		<form method="get" id="cForm" action="exercicio03.php">
+						
+		Estados:<select name="tEst">
+    			<option value="AC">Acre</option>
+    			<option value="AL">Alagoas</option>
+    			<option value="AP">Amapá</option>
+   				<option value="AM">Amazonas</option>
+    			<option value="BA">Bahia</option>
+    			<option value="CE">Ceará</option>
+    			<option value="DF">Distrito Federal</option>
+    			<option value="ES">Espírito Santo</option>
+    			<option value="GO">Goiás</option>
+    			<option value="MA">Maranhão</option>
+    			<option value="MT">Mato Grosso</option>
+    			<option value="MS">Mato Grosso do Sul</option>
+   				<option value="MG">Minas Gerais</option>
+    			<option value="PA">Pará</option>
+    			<option value="PB">Paraíba</option>
+    			<option value="PR">Paraná</option>
+    			<option value="PE">Pernambuco</option>
+    			<option value="PI">Piauí</option>
+    			<option value="RJ">Rio de Janeiro</option>
+    			<option value="RN">Rio Grande do Norte</option>
+    			<option value="RS">Rio Grande do Sul</option>
+    			<option value="RO">Rondônia</option>
+    			<option value="RR">Roraima</option>
+    			<option value="SC">Santa Catarina</option>
+    			<option value="SP">São Paulo</option>
+    			<option value="SE">Sergipe</option>
+    			<option value="TO">Tocantins</option>
+    		</select>
+			<input type="submit" id="cVer" class="botao" value="Verificar"/>
+		</form>	
+	</div>
+</body>
+</html>
